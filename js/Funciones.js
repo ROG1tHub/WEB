@@ -2,10 +2,9 @@
 function cambio(){
     let dolares = 300; 
     let resultado = '';   
-    let pesos =C;
+    let pesos = parseInt(document.getElementById("pesos").value);
     resultado = pesos / dolares ;
     document.getElementById("resultado").value = resultado.toFixed(2);
-    
     }
 
 //Ejercicio 10

@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicios.</title>
-    <script type="text/javascript" src="./Funciones.js"></script>
+    <title>Ejercicio 09</title>
+    <link rel="stylesheet" type="text/css" href="../css/clase07.css">
+    <script src="../js/Funciones.js"></script>
     
 
 </head>
 <body>
-  <div class="contenedor">
-    <div id="convertidor" >
-    <h2>Pesos a Dólares. </h2>
-    <br><P>Pesos:<input type="text" id="pesos" placeholder="Cantidad de pesos : "></P>
-    <button type ="button" onclick="cambio()"> Convertir!</button>
-    <br><p>Dólares:<input type="text" id="resultado"placeholder="El importe en Dólares es: " ></P>
+    <div class = "contenedor-nombre" id="convertidor" >
+      <div>
+      <p>Pesos a Dólares.</p>
+      </div>
+      <div>
+      <P class="txt">Pesos : <input type="number" id="pesos" placeholder="Cantidad de pesos : "></P>
+      </div>
+       <div>
+       <button class= "button" type ="button" onclick="cambio()"> Convertir! </button>
+       </div> 
+       <div>
+       <p class="txt">Dólares : <input type="number" id="resultado" placeholder="El importe en Dólares es: " ></P>
+       </div>
   </div>
   
   
- 
+  <a class="btn-volver" href="..//html/clase07.html">Volver</a>
 </body>
 </html>
