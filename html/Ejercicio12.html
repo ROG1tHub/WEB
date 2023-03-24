@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+    <link rel="stylesheet" type="text/css" href="../css/clase07.css">
+    <script type="text/javascript" src="..//js/Funciones.js"></script>
+    </head>
+<body>
+<div class="contenedor-nombre"> 
+    <div>
+        <p class="txt" >Nombre del cliente:</p>
+    </div> 
+    <div>
+    <input type="text" id = "nombre" placeholder="Ingrese un nombre:" >
+    </div>
+    <br>
+    <div class="txt">
+      Material de la caja:
+       <select name="material" id="material">
+      <option value="selected">Seleccione</option>
+       <option value="madera">Madera</option>
+      <option value="carton">Cartón</option>
+       </select>
+    </div>
+  <br>
+<form class="txt" method="get">Seleccione el tamaño de la caja:</form>
+<label><input class="txtradio" type="radio" name="tamanio" value="diminuta">Diminuta</label>
+<label><input class="txtradio" type="radio" name="tamanio" value="mediana">Mediana</label>
+<label><input class="txtradio" type="radio" name="tamanio" value="grande">Grande</label>
+<div>
+    <br>
+    <label class="txt">Comentarios:
+        <br>   
+    <textarea id="comentario" name="comentario" placeholder="Deja tu comentario." style="height: 99px; width: 316px;"></textarea>
+    </label>
+     </div>
+      <div>
+        <input class= "button" type ="button" id= "btnE" value="Enviar." onclick="agregarPedido()">
+      </div>
+     <div>
+        <input type="text" id="enviarmsj" placeholder="" size="50px">
+     </div>
+</div>
+<a class="btn-volver" href="..//html/clase07.html">Volver</a>
+         
+</body>
+</html>

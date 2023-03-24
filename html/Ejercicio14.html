@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/clase07.css">
+    <script src="../js/Funciones.js"></script>
+</head>
+<body>
+   <div class="contenedor-nombre"> 
+      <div>
+        <p>Ingrese un nombre:</p>
+        <br>
+        <p><h6>Se creará una lista debajo.</h6></p>
+       </div>
+       <br>
+       <div>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingresar nombre...">
+       </div>
+        <br>
+       <div>
+        <input class= "button" type="button" value="Aceptar" onclick="insertarNombre(event)">
+       </div>
+       <br>
+        <div>
+           <ul id="lista-nombres"></ul>
+        </div>
+        <br><p id="aviso"></p>
+   </div>
+   <a class="btn-volver" href="..//html/clase07.html">Volver</a>
+   
+</body>
+</html>
